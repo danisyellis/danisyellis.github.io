@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
   	<head>
-    	<title>Danielle Gellis</title>
+    	<title>Danielle Gellis Portfolio Site</title>
+    	<meta name="description" content="Portfolio and resume site for Danielle Gellis, an entry-level, full-stack web developer">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<!-- Bootstrap -->
     	
-    	<link href="bootstrap-3.1.1-dist/css/customstyle.css" rel="stylesheet" media="screen">
+    	<link href="normalize.css" rel="stylesheet" media="screen">
+    	<link href="styles.css" rel="stylesheet" media="screen">
+    	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+    	
   	</head>
   
   	<body>
@@ -19,45 +22,70 @@
 	        	</div>
 	        </div>
 		</nav>  -->
-		<div class="container-fluid">
-			<div class="jumbotron">
-	    		<h1 class="text-center">Danielle Gellis</h1>
-	    		<p class="text-center">Entry-level, Full-stack Web Developer</p>
-	    		<p class="text-center"> Technologies: HTML/CSS, Bootstrap, JavaScript, jQuery, Ruby, Rails, Git, GitHub, and the Command Line Interface</p>
-	    	</div>
-	    <!--<div class="col-md-6 col-lg-6">
-                <p class="lead">Hi. Welcome to Love Bootstrap &mdash; a hand-picked showcase of the <strong>finest and very best examples of Bootstrap</strong> from around the web.</p>
-        	</div> -->
-   		</div>
-  
-  		<div class="container">
-  			<div class="row">
-		        <div class="col-md-4">
-		        	<a href="https://drive.google.com/file/d/0B38L74BxCY9JMkhiblBVSWFMaDQ/edit?usp=sharing"><img class="img-responsive img-square" src="Resume.png"></a>
-		          	<h2>Resume</h2>
-		          	<p>Learn more about my skills and experience here</p>
-		          	<p><a class="btn btn-success" href="https://drive.google.com/file/d/0B38L74BxCY9JMkhiblBVSWFMaDQ/edit?usp=sharing" role="button">View My Resume &raquo;</a></p>
-		        </div>
-		        <div class="col-md-4">
-		        	<a href="http://danisyellis.github.io/DaniSearch/"><img class="img-responsive img-square" src="DaniSearch.png"></a>
-		          	<h2>DaniSearch</h2>
-		          	<p>A basic, but pretty, website using a form and HTTP GET to access Google search</p>
-		          	<p><a class="btn btn-success" href="http://danisyellis.github.io/DaniSearch/" role="button">Go to the Site &raquo;</a></p>
-		        </div>
-		        <div class="col-md-4">
-		        	<a href="https://gist.github.com/danisyellis/7966922"><img class="img-responsive img-square" src="rock-paper-scissors-lizard-spock.png"></a>
-		          	<h2>Rock, Paper, Scissors, Lizard, Spock</h2>
-		          	<p>Well-documented Ruby program that runs a more complex version of Rock, Paper, Scissors</p>
-		          	<p><a class="btn btn-success" href="https://gist.github.com/danisyellis/7966922" role="button">See the Code &raquo;</a></p>
-        		</div>
-        	</div>
+		<header>
+    		<h1>Danielle Gellis</h1>
+    		<h2>Entry-level, Full-stack Web Developer</h2>
+    		<h2> Technologies: HTML/CSS, Bootstrap, JavaScript, jQuery, Ruby on Rails, Git, and GitHub</h2>
+    		<div class="contact">
+    			<div>My resume is here <br />
+    				<button onclick="location.href='https://drive.google.com/file/d/0B38L74BxCY9JMkhiblBVSWFMaDQ/edit?usp=sharing'" type="button">View</button>
+    			</div>
+    			
+    			<div>Email me at DanielleGellis@gmail.com <br />
+    				<form action="mailto:DanielleGellis@gmail.com"> 
+						<input type="submit" value="Send Email" />
+    				</form>
+    			</div>
 
-  			<hr>
+    			<div>Here's my Github account<br />
+    				<button onclick="location.href='https://github.com/danisyellis'" type="button">Go To The Site</button>
+    			</div>
+    		</div>
+   		</header>
+  
+  		<main>
+  			<h2>What I've been working on</h2>
+			<div>
+	        	<a href="http://danisyellis.github.io/DaniSearch/"><img src="DaniSearch.png"></a>
+	          	<div class="Description">
+	          		<h3>DaniSearch</h3>
+	          		<p>A basic, pretty, website using a form and HTTP GET to access Google search</p>
+	          		<p><button onclick="location.href='http://danisyellis.github.io/DaniSearch/'" type="button">Go To The Site</button></p>
+	          	</div>
+	        </div>
+
+	        <div>
+	        	<a href="https://drive.google.com/file/d/0B38L74BxCY9JMkhiblBVSWFMaDQ/edit?usp=sharing"><img src="Resume.png"></a>
+	          	<div class="Description">
+	          		<h3>Resume</h3>
+	          		<p>Learn more about my skills and experience here</p>
+	          		<p><button onclick="location.href='https://drive.google.com/file/d/0B38L74BxCY9JMkhiblBVSWFMaDQ/edit?usp=sharing'" type="button">View My Resume</button></p>
+	          	</div>
+	        </div>
+	        
+	        <div>
+	        	<a href="https://gist.github.com/danisyellis/7966922"><img src="rock-paper-scissors-lizard-spock.png"></a>
+	          	<div class="Description">
+	          		<h3>Rock, Paper, Scissors, Lizard, Spock</h3>
+	          		<p>Well-documented Ruby program that runs a more complex version of Rock, Paper, Scissors</p>
+	          		<p><button onclick = "href="https://gist.github.com/danisyellis/7966922"" name="button">See The Code</button></p>
+	          	</div>
+    		</div>
+    	</main>
+
+    	<div id="Social">
+    		<p> Do you like what you see? <br />
+    			Want to help me get my first job as a web developer? <br />
+    			Please tweet about this site or tell your friends on Facebook. Thanks!</p>
+    		<p>
+
+    		</p>
+    	</div>
+  			
   			<footer>
-  				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Portfolio Page</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Danielle Gellis</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+  				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="CC" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Portfolio Page</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Danielle Gellis</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
   			</footer>
-  		</div> <!-- /main container -->	
+  		
     	<script src="//code.jquery.com/jquery.js"></script>
-    	<script src="bootstrap-3.1.1-dist/js/bootstrap.min.js"></script>
   	</body>
 </html>
