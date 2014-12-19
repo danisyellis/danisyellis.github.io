@@ -1,3 +1,5 @@
+
+
 body {
 	text-align: center;
     background-color: #152A3F;
@@ -9,42 +11,50 @@ body {
 
 
 header {
-	margin: 50px 0 100px 0;
+	margin: 0 0 40px 0;
 }
 
 h1 {
     font-size: 86px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
+    margin-top: 24px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 32px;
     letter-spacing: 2px;
 	color: #eeeeee;
-    margin: 8px 0 60px 0;
+    margin: 2px 0 58px 0;
     font-weight: 400;
 }
 
 #HappyComputer {
-    max-height: 216px;
+    max-height: 190px;
     border: 0;
 }
 
 h5 {
-	font-size: 24px;
+	font-size: 26px;
 	color: #aaaaaa;
-    margin: 88px 0 10px 0;
+    margin: 30px 0 90px 0;
 }
 
 .contact div{
     display: inline-block;
-    padding:50px 50px 0 50px;
+    padding:30px 50px 0 50px;
     font-size: 22px;
+}
+
+.contact img {
+    max-height: 50px;
+    border: 0;
 }
 
 .contact button {
     background-color: pink;
     margin-top: 8px;
+    color: black;
+    border: 1px solid black;
 }
 
 input {
@@ -62,14 +72,20 @@ main {
 }
 
 .Description {
-    padding-top: 60px;
+    padding-top: 26px;
     padding-bottom: 40px;
     border-bottom: 1px solid #000000;
 }
 
-button {
+p {
+    font-size: 22px;
+}
+
+.Description button {
 	color: black;
 	border: 1px solid black;
+    background-color: #084740;
+    border-radius: 200px;
 }
 
 h3 {
@@ -77,23 +93,26 @@ h3 {
     letter-spacing: 2px;
     color: #eeeeee;
     margin: 8px 0 0px 0;
-    padding: 80px 0 80px 0;
+    padding: 10px 0 10px 0;
     border-top: 1px solid black;
     background-color: #89A9AD;
 }
 
 #FizzBuzz {
-    background-color: #89A9AD ;
+    background-color: #152A3F;
+
+
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 50px;
     color: #eeeeee;
-    margin: 100px 0 0 0;
+    margin: 60px 0 20px 0;
 }
 
 img {
     border: 2px solid black;
+    max-width: 400px;
 }
 
 #Rails{
@@ -110,6 +129,10 @@ img {
 footer {
     background-color: #363636;
     padding: 40px 0 40px 0;
+}
+
+footer p {
+    max-width: 100%;
 }
 
 #Social {
@@ -132,4 +155,69 @@ a {
 
 #CC {
 	float: left;
+}
+
+
+
+
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 1% 2.25% 1% 0%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+    width: 100%;
+}
+.span_2_of_3 {
+    width: 65.16%;
+}
+.span_1_of_3 {
+    width: 30.33%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .span_3_of_3 {
+        width: 100%;
+    }
+    .span_2_of_3 {
+        width: 100%;
+    }
+    .span_1_of_3 {
+        width: 100%;
+    }
 }
