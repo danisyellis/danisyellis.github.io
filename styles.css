@@ -92,6 +92,10 @@ p {
     border-radius: 200px;
 }
 
+.Description a {
+    font-size: 36px;
+}
+
 h3 {
     font-size: 40px;
     letter-spacing: 2px;
