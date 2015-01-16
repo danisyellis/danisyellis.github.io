@@ -133,6 +133,7 @@ img {
 
 #DaniSearch p {
     text-align: center;
+    margin: 0 0 62px 0;
 }
 
 
@@ -144,29 +145,30 @@ footer {
 
 footer p {
     max-width: 100%;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #Social {
-	text-align: left;
-	margin: 40px 0 20px 20px;
+	margin: 40px 0 34px 0;
 }
 
 #FB_twitter {
 	display:inline-flex;
 }
 
+#twitter {
+    padding-right: 10px;
+}
+
 #foot {
-	margin: 50px;
+	margin: 0 280px 0 280px;
+    padding: 34px 0 34px 0;
 	text-align: center;
+    border-top: 1px solid #333;
 }
 
 a {
 	color: #89A9AD;
-}
-
-#CC {
-	float: left;
 }
 
 
