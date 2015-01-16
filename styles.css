@@ -1,11 +1,8 @@
-
-
 body {
 	text-align: center;
     background-color: #152A3F;
 	color: #bbbbbb;
     font-family: 'Rokkitt', serif;
-
 }
 
 
@@ -50,10 +47,6 @@ h5 {
     border: 0;
 }
 
-h6 {
-    font-size: 38px;
-}
-
 .contact button {
     background-color: pink;
     margin-top: 8px;
@@ -70,32 +63,7 @@ input {
 
 
 
-
-main {
-
-}
-
-.Description {
-    padding-top: 26px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #000000;
-}
-
-p {
-    font-size: 24px;
-}
-
-.Description button {
-	color: black;
-	border: 1px solid black;
-    background-color: #89A9AD;
-    border-radius: 200px;
-}
-
-.Description a {
-    font-size: 36px;
-}
-
+/*main*/
 h3 {
     font-size: 40px;
     letter-spacing: 2px;
@@ -104,6 +72,38 @@ h3 {
     padding: 10px 0 10px 0;
     border-top: 1px solid black;
     background-color: #89A9AD;
+}
+
+.Description {
+    padding-top: 26px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000000;
+}
+
+h4 {
+    font-size: 50px;
+    color: #eeeeee;
+    margin: 60px 0 50px 0;
+}
+
+.Description a {
+    font-size: 36px;
+}
+
+img {
+    border: 2px solid black;
+    max-width: 400px;
+}
+
+.Description p {
+    font-size: 24px;
+}
+
+.Description button {
+	color: black;
+	border: 1px solid black;
+    background-color: #89A9AD;
+    border-radius: 200px;
 }
 
 #Zivity {
@@ -116,19 +116,6 @@ h3 {
 
 #FizzBuzz {
     background-color: #152A3F;
-
-
-}
-
-h4 {
-    font-size: 50px;
-    color: #eeeeee;
-    margin: 60px 0 50px 0;
-}
-
-img {
-    border: 2px solid black;
-    max-width: 400px;
 }
 
 #Rails {
@@ -144,6 +131,9 @@ img {
     text-align: left;
 }
 
+#DaniSearch p {
+    margin: 0 0 62px 0;
+}
 
 
 
@@ -160,12 +150,12 @@ footer p {
 	text-align: left;
 	margin: 40px 0 20px 20px;
 }
+
 #FB_twitter {
 	display:inline-flex;
 }
 
 #foot {
-	/*background-color: #dddddd;*/
 	margin: 50px;
 	text-align: center;
 }
@@ -177,7 +167,6 @@ a {
 #CC {
 	float: left;
 }
-
 
 
 
