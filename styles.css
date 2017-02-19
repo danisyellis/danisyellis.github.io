@@ -1,6 +1,7 @@
 body {
 	text-align: center;
-    background-color: #152A3F;
+/*    background: url("background.jpg");
+*/    background-color: #152A3F;
 	color: #bbbbbb;
     font-family: 'Rokkitt', serif;
 }
@@ -63,7 +64,7 @@ input {
 
 
 
-/*main*/
+/*main
 h3 {
     font-size: 40px;
     letter-spacing: 2px;
