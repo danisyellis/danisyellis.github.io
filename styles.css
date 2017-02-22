@@ -64,7 +64,7 @@ input {
 
 
 
-/*main
+main
 h3 {
     font-size: 40px;
     letter-spacing: 2px;
@@ -98,29 +98,32 @@ img {
 
 .Description p {
     font-size: 24px;
+    text-align: left;
+    margin-top: 0px;
 }
 
 .Description button {
-	color: black;
-	border: 1px solid black;
+    color: black;
+    border: 1px solid black;
     background-color: #89A9AD;
     border-radius: 200px;
+    margin-top: 5px;
 }
 
 #Zivity {
     background-color: #4f4f4f;
 }
 
-#Zivity p {
+/*#Zivity p {
     text-align: left;
-}
+}*/
 
 #FizzBuzz {
-    background-color: #152A3F;
+    background-color: #4f4f4f;
 }
 
 #Rails {
-    background-color: #4f4f4f;
+    background-color: #152A3F;
 }
 
 .RailsImg {
@@ -132,15 +135,14 @@ img {
     text-align: left;
 }
 
-#DaniSearch p {
-    text-align: center;
-    margin: 0 0 62px 0;
+#DaniSearch {
+        background-color: #4f4f4f;
 }
 
 
 
 footer {
-    background-color: #4f4f4f;
+    background-color: #152A3F;
     padding: 10px 0 10px 0;
 }
 
