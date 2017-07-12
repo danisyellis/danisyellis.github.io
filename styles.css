@@ -2,8 +2,8 @@ body {
         text-align: center;
 /*    background: url("background.jpg");
 */    background-color: #152A3F;
-        color: #bbbbbb;
-        font-family: 'Rokkitt', serif;
+      color: #bbbbbb;
+      font-family: 'Rokkitt', serif;
 }
 
 
@@ -13,28 +13,23 @@ header {
 }
 
 h1 {
-            font-size: 88px;
-            margin-bottom: 2px;
-            margin-top: 24px;
+  font-size: 88px;
+  margin-bottom: 2px;
+  margin-top: 84px;
 }
 
 h2 {
 	font-size: 32px;
-            letter-spacing: 2px;
+  letter-spacing: 2px;
 	color: #eeeeee;
-            margin: 2px 0 64px 0;
-            font-weight: 400;
-}
-
-#HappyComputer {
-            max-height: 190px;
-            border: 0;
+  margin: 2px 0 64px 0;
+  font-weight: 400;
 }
 
 h5 {
 	font-size: 28px;
 	color: #aaaaaa;
-            margin: 30px 0 30px 0;
+  margin: 30px 0 130px 0;
 }
 
 .contact div{
@@ -75,15 +70,19 @@ h3 {
     background-color: #89A9AD;
 }
 
+#projects {
+  color: #222;
+}
+
 .Description {
     padding-top: 26px;
     padding-bottom: 40px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #999;
 }
 
 h4 {
     font-size: 50px;
-    color: #eeeeee;
+    color: #222222;
     margin: 60px 0 50px 0;
 }
 
@@ -111,20 +110,27 @@ img {
 }
 
 #Zivity {
-    background-color: #4f4f4f;
+    background-color: rgba(215, 215, 215, 1);
 }
 
 /*#Zivity p {
     text-align: left;
 }*/
 
-#A-maze-ing {
-    background-color: #4f4f4f;
+#Christina {
+  background-color: rgb(249, 229, 239);
 }
 
+#A-maze-ing {
+    background-color: rgba(215, 215, 215, 1);
+}
+
+#FizzBuzz {
+  background-color: rgb(249, 229, 239);
+}
 #Rails {
 /*    background-color: #152A3F;
-*/    background-color: #4f4f4f;
+*/    background-color: rgba(215, 215, 215, 1);
 
 }
 
