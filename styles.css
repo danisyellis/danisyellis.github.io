@@ -375,14 +375,16 @@ a {
 /*fix layout for phones in portrait*/
 @media only screen and (max-width: 450px) {
   .header {
-    margin: 0;
+    margin-left: 3px;
   }
   #tech-text {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 3px;
   }
   .Description p {
-    padding-left: 5px;
-    margin: 0 10px 0 5px;
+    /*padding-left: 5px;
+    margin: 0 10px 0 5px;*/
+    text-align: center;
+
   }
   .contact div{
     display: block;
