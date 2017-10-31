@@ -220,7 +220,6 @@ footer a {
 }
 
 #foot {
-	margin: 0 280px 0 280px;
   padding: 34px 0 34px 0;
 	text-align: center;
   border-top: 1px solid #333;
@@ -373,11 +372,23 @@ a {
 	}
 }
 
+/*fix layout for phones in portrait*/
+@media only screen and (max-width: 450px) {
+  header {
+  	padding: 0 0 0 0;
+  }
+  .Description p {
+    margin: 0 5px 0 5px;
+  }
+  .contact div{
+    display: block;
+}
 
 /*Project Order:
 Zivity
 To-Do or Roam or Vinyl
 Bossgle
+8-Ball React
 A-maze-ing Game
 Memorial Site
 FizzBuzzinator*/
