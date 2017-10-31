@@ -5,7 +5,7 @@
     	<title>Portfolio for Danielle Gellis</title>
     	<meta name="description" content="Portfolio and resume site for Danielle Gellis, a Junior Developer">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta property="og:image" content="http://www.daniellegellis.com/DaniPortfolio.png" />
+            <meta property="og:image" content="http://www.daniellegellis.com/DaniPortfolio.png" />
 
     	<link href="normalize.css" rel="stylesheet" media="screen">
     	<link href="styles.css" rel="stylesheet" media="screen">
@@ -26,15 +26,20 @@
 
     <header>
       <div>
+      <!-- <div class="col span_1_of_3">
+        <img id="HappyComputer" alt="a cartoon computer with a happy face on its screen" src="DaniCoding.jpeg">
+      </div> -->
+      <div>
         <h1>Danielle Gellis</h1>
         <hr>
         <h2>WEB DEVELOPER</h2>
       </div>
+    </div>
 
       <h4 id="tech-text">Technologies:</h4>
       <h5>
         <div class="section group">
-          <div class="col span_3_of_12">Server-side JavaScript:</div>
+          <div class="col span_3_of_12">JavaScript:</div>
           <div class="col span_9_of_12">Node, Express</div>
         </div>
         <div class="section group">
@@ -42,8 +47,8 @@
           <div class="col span_9_of_12">Postgres/SQL</div>
         </div>
         <div class="section group">
-          <div class="col span_3_of_12">Front-end:</div>
-          <div class="col span_9_of_12">HTML and CSS, jQuery, Fetch, Processing.JS, EJS</div>
+          <div class="col span_3_of_12">Front-end Specific:</div>
+          <div class="col span_9_of_12">HTML and CSS, React, jQuery, Ajax, Processing.JS, EJS</div>
         </div>
         <div class="section group">
           <div class="col span_3_of_12">Testing:</div>
@@ -55,10 +60,28 @@
         </div>
         <div class="section group">
           <div class="col span_3_of_12">Also Familiar With:</div>
-          <div class="col span_9_of_12">Ruby on Rails, React, Angular, Bootstrap, Sequelize</div>
+          <div class="col span_9_of_12">Ruby on Rails, Angular, Bootstrap, Sequelize</div>
         </div>
       </h5>
+        <div class="contact">
+            <div>
+                My resume
+                <input type="image" src="docs.svg" alt="2 pieces of paper" onclick="window.open('https://drive.google.com/file/d/0ByUt8etvm3JDMnB2bHVnUVZ2SW8/view?usp=sharing')"/>
+            </div>
 
+            <div>
+              Email me:<br />
+              DanielleGellis@gmail.com
+              <form target="_blank" action="mailto:DanielleGellis@gmail.com">
+                  <input type="image" src="Envelope_closed-bw.svg" alt="envelope image for emailing me"/>
+              </form>
+            </div>
+
+            <div>
+                My Github
+                <input type="image" src="github.svg" alt="github logo" onclick="window.open('https://github.com/danisyellis')"/>
+            </div>
+        </div>
 
    </header>
 
@@ -170,25 +193,6 @@
     </main>
 
     <footer>
-      <div class="contact">
-          <div>
-              My resume
-              <input type="image" src="docs.svg" alt="2 pieces of paper" onclick="window.open('https://drive.google.com/file/d/0ByUt8etvm3JDMnB2bHVnUVZ2SW8/view?usp=sharing')"/>
-          </div>
-
-          <div>
-            Email me:<br />
-            DanielleGellis@gmail.com
-            <form target="_blank" action="mailto:DanielleGellis@gmail.com">
-                <input type="image" src="Envelope_closed-bw.svg" alt="envelope image for emailing me"/>
-            </form>
-          </div>
-
-          <div>
-              My Github
-              <input type="image" src="github.svg" alt="github logo" onclick="window.open('https://github.com/danisyellis')"/>
-          </div>
-      </div>
         <div id="Social">
             <p> Do you like what you see? Help me get my next job!<br />
                 Please tweet about this site or tell your friends on Facebook.</p>

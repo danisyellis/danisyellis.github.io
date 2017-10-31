@@ -1,68 +1,79 @@
 /*ToDo: new font?, new picture on top?, add non-code things?*/
 
 body {
-  text-align: center;
-  background-image: linear-gradient(-90deg,  #FFDD52 0%, #FF7473 100%);
-  color: #fff;;
-  font-family: 'Rokkit', serif;
+      text-align: center;
+    /*background: url("background.jpg");*/
+    /*background-color: #152A3F;*/
+    /*background-color: rgba(89, 13, 82, .98);*/
+    background-color: rgba(81, 11, 75, .97);
+    color: #bbb;;
+    font-family: 'Rokkit', serif;
 }
 
 hr {
-  border-color: #fff;
+  border-color: #aaa;
   margin: 0 40px 0 40px;
 }
 
 header {
-	padding: 0 0 50px 0;
+	margin: 0 0 50px 0;
+  /*background: url("DaniCoding.jpeg");
+  background-size: cover;*/
   background-color: #FFBA58;
-  background-image: linear-gradient(-90deg,  #FFDD52 0%, #FF7473 100%);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /*font-family: "Roboto", sans-serif;*/
-  color: #fff;
-  font-weight: 500;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-  font-size: 36px;
+background-image: linear-gradient(-90deg, #FF7473 0%, #FFC952 100%);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: "Roboto", sans-serif;
+color: #fff;
+font-weight: 500;
+text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+font-size: 36px;
 }
 
 h1 {
   font-size: 88px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 2px;
+  margin-top: 40px;
   margin-left: 40px;
-  padding-top: 10px;
   text-align: left;
+  font-family: 'Lato', serif;
 }
 
 h2 {
-	font-size: 31px;
+	font-size: 32px;
   letter-spacing: 2px;
-	color: #fff;
-  margin: 10px 0 54px 40px;
+	color: #eeeeee;
+  margin: 10px 0 48px 40px;
   font-weight: 400;
   text-align: left;
+  font-family: 'Lato', serif;
 }
 
-
+#HappyComputer {
+  max-height: 190px;
+  border: 0;
+  margin-right: 150px;
+}
 
 #tech-text {
-  color: #fff;
-  margin: 0px 0px 20px 40px;
+  font-size: 34px;
+  color: #ccc;
+  margin: 0px 0px 10px 40px;
   text-decoration: underline;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 27px;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-size: 25px;
 }
 
 h5 {
+	font-size: 28px;
+	color: #ccc;
   margin: 0px 0px 40px 40px;
   text-align: left;
-  font-size: 26px;
-  line-height: 1.5;
-  font-family: Arial, Helvetica, sans-serif;
-  /*font-family: verdana;*/
-  font-weight: normal;
+  /*font-family: */
+  font-size: 25px;
+  line-height: 1.4;
 }
 
 .contact div{
@@ -109,8 +120,7 @@ h3 {
     margin: 8px 0 0px 0;
     padding: 10px 0 10px 0;
     border-top: 1px solid black;
-    background-color: #33FF57;
-    /*background-color: rgb(234,100,92);*/
+    background-color: #89A9AD;
 }
 
 #projects {
@@ -149,18 +159,18 @@ img {
 .Description button {
     color: black;
     border: 1px solid black;
-    background-color: #FFBD33;
+    background-color: rgba(81, 11, 75, .4);
     border-radius: 200px;
     margin-top: 5px;
 }
 
 #Zivity {
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(215, 215, 215);
     padding: 0px 100px 0px 100px;
 }
 
 #Christina {
-  background-color: #fff0e6;
+  background-color: rgb(249, 229, 239);
   padding: 0px 100px 0px 100px;
 }
 
@@ -170,7 +180,7 @@ img {
 }
 
 #A-maze-ing {
-    background-color: #fff0e6;
+    background-color: rgb(249, 229, 239);
     padding: 0px 100px 0px 100px;
 
 }
@@ -192,8 +202,7 @@ h6 {
 
 
 footer {
-    background-color: #FFBA58;
-    background-image: linear-gradient(-90deg, #FF7473 0%, #FFDD52 100%);
+    background-color: rgba(81, 11, 75, .97);
     padding: 10px 0 10px 0;
 }
 
@@ -227,7 +236,8 @@ footer a {
 }
 
 a {
-  color: #FF5733;
+	/*color: #89A9AD;*/
+  color: rgba(81, 11, 75, .65);
 }
 
 .contact button:focus {
