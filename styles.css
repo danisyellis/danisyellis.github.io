@@ -1,5 +1,3 @@
-/*ToDo: new font?, new picture on top?, add non-code things?*/
-
 body {
   text-align: center;
   background-image: linear-gradient(-90deg,  #FFDD52 0%, #FF7473 100%);
@@ -68,7 +66,7 @@ h5 {
 .contact div{
   display: inline-block;
   padding:46px 44px 16px 44px;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .contact img {
@@ -109,7 +107,8 @@ h3 {
     margin: 8px 0 0px 0;
     padding: 10px 0 10px 0;
     border-top: 1px solid black;
-    background-color: #33FF57;
+    /*background-color: #33FF57;*/
+    background-color: rgba(66, 134, 244, 0.8);
     /*background-color: rgb(234,100,92);*/
 }
 
@@ -118,8 +117,8 @@ h3 {
 }
 
 .Description {
-    padding-top: 26px;
-    padding-bottom: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #999;
 }
 
@@ -135,49 +134,49 @@ h4 {
 
 img {
     border: 2px solid black;
-    max-width: 400px;
-    margin-left: 20px;
+    max-width: 230px;
+    /*margin-left: 20px;*/
 }
 
 .Description p {
     font-size: 24px;
     text-align: left;
     margin-top: 0px;
-    margin-left: 60px;
+    /*margin-left: 60px;*/
 }
 
 .Description button {
     color: black;
-    border: 1px solid black;
-    background-color: #FFBD33;
-    border-radius: 200px;
+    /*border: 1px solid black;*/
+    background-color: rgba(66, 134, 244, 0.6);
+    border-radius: 8px;
     margin-top: 5px;
 }
 
 #Zivity {
     background-color: rgb(200, 200, 200);
-    padding: 0px 100px 0px 100px;
+    /*padding: 0px 100px 0px 100px;*/
 }
 
 #Christina {
   background-color: #fff0e6;
-  padding: 0px 100px 0px 100px;
+  /*padding: 0px 100px 0px 100px;*/
 }
 
 #FizzBuzz {
   background-color: rgb(215, 215, 215);
-  padding: 0px 100px 0px 100px;
+  /*padding: 0px 100px 0px 100px;*/
 }
 
 #A-maze-ing {
     background-color: #fff0e6;
-    padding: 0px 100px 0px 100px;
+    /*padding: 0px 100px 0px 100px;*/
 
 }
 
 #Rails {
    background-color: rgb(215, 215, 215);
-   padding: 0px 100px 0px 100px;
+   /*padding: 0px 100px 0px 100px;*/
 
 }
 
@@ -199,12 +198,13 @@ footer {
 
 footer p {
     max-width: 100%;
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
 footer a {
-  /*TODO: fix this color*/
-  color: grey;
+  color: rgba(66, 134, 244, 0.8);
 }
 
 #Social {
@@ -372,3 +372,12 @@ a {
 	width: 100%;
 	}
 }
+
+
+/*Project Order:
+Zivity
+To-Do or Roam or Vinyl
+Bossgle
+A-maze-ing Game
+Memorial Site
+FizzBuzzinator*/
