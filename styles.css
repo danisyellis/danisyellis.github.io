@@ -1,47 +1,72 @@
-/*ToDo: change blue highlight color, fix button thing, new font?, new picture on top?, add non-code things?*/
-
 body {
-      text-align: center;
-/*    background: url("background.jpg");
-*/    background-color: #152A3F;
-      color: #bbbbbb;
-      font-family: 'Rokkitt', serif;
+  text-align: center;
+  background-image: linear-gradient(-90deg,  #FFDD52 0%, #FF7473 100%);
+  color: #fff;;
+  font-family: 'Rokkit', serif;
+}
+
+hr {
+  border-color: #fff;
+  margin: 0 40px 0 40px;
 }
 
 header {
-	margin: 0 0 40px 0;
+	padding: 0 0 50px 0;
+  background-color: #FFBA58;
+  background-image: linear-gradient(-90deg,  #FFDD52 0%, #FF7473 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*font-family: "Roboto", sans-serif;*/
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  font-size: 36px;
 }
 
 h1 {
   font-size: 88px;
-  margin-bottom: 2px;
-  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 40px;
+  padding-top: 10px;
+  text-align: left;
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 31px;
   letter-spacing: 2px;
-	color: #eeeeee;
-  margin: 2px 0 64px 0;
+	color: #fff;
+  margin: 10px 0 54px 40px;
   font-weight: 400;
+  text-align: left;
 }
 
-#HappyComputer {
-  max-height: 190px;
-  border: 0;
-  margin:0;
+
+
+#tech-text {
+  color: #fff;
+  margin: 0px 0px 20px 40px;
+  text-decoration: underline;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
 }
 
 h5 {
-	font-size: 28px;
-	color: #aaaaaa;
-  margin: 30px 0 30px 0;
+  margin: 0px 0px 40px 40px;
+  text-align: left;
+  font-size: 26px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  /*font-family: verdana;*/
+  font-weight: normal;
 }
 
 .contact div{
   display: inline-block;
   padding:46px 44px 16px 44px;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .contact img {
@@ -51,7 +76,7 @@ h5 {
 }
 
 .contact button {
-  background-color: pink;
+  /*background-color: pink;*/
   margin-top: 8px;
   color: black;
   border: 1px solid black;
@@ -59,12 +84,20 @@ h5 {
 
 input {
 	color: black;
-	background-color: pink;
   border: none;
   margin-top: 8px;
+  max-height: 46px;
 }
+ input:hover {
+   filter: brightness(40%);
+ }
 
+ input:focus {
+   outline: none;
+   filter: brightness(30%);
+   background: pink;
 
+ }
 
 main
 h3 {
@@ -74,7 +107,9 @@ h3 {
     margin: 8px 0 0px 0;
     padding: 10px 0 10px 0;
     border-top: 1px solid black;
-    background-color: #89A9AD;
+    /*background-color: #33FF57;*/
+    background-color: rgba(66, 134, 244, 0.8);
+    /*background-color: rgb(234,100,92);*/
 }
 
 #projects {
@@ -82,8 +117,8 @@ h3 {
 }
 
 .Description {
-    padding-top: 26px;
-    padding-bottom: 40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #999;
 }
 
@@ -94,63 +129,56 @@ h4 {
 }
 
 .Description a {
-    font-size: 36px;
+    font-size: 26px;
 }
 
 img {
     border: 2px solid black;
-    max-width: 400px;
-    margin-left: 20px;
+    max-width: 230px;
+    /*margin-left: 20px;*/
 }
 
 .Description p {
     font-size: 24px;
     text-align: left;
     margin-top: 0px;
+    /*margin-left: 60px;*/
 }
 
 .Description button {
     color: black;
-    border: 1px solid black;
-    background-color: #89A9AD;
-    border-radius: 200px;
+    /*border: 1px solid black;*/
+    background-color: rgba(66, 134, 244, 0.6);
+    border-radius: 8px;
     margin-top: 5px;
 }
 
 #Zivity {
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(200, 200, 200);
+    /*padding: 0px 100px 0px 100px;*/
 }
 
-/*#Zivity p {
-    text-align: left;
-}*/
-
 #Christina {
-  background-color: rgb(249, 229, 239);
+  background-color: #fff0e6;
+  /*padding: 0px 100px 0px 100px;*/
 }
 
 #FizzBuzz {
   background-color: rgb(215, 215, 215);
+  /*padding: 0px 100px 0px 100px;*/
 }
 
 #A-maze-ing {
-    background-color: rgb(249, 229, 239);
+    background-color: #fff0e6;
+    /*padding: 0px 100px 0px 100px;*/
+
 }
 
 #Rails {
    background-color: rgb(215, 215, 215);
-   padding: 0px 40px 0px 40px;
+   /*padding: 0px 100px 0px 100px;*/
 
 }
-
-/*.RailsImg {
-	border: 0px;
-}*/
-
-/*#Rails p {
-    max-width: 820px;
-    text-align: left;
-}*/
 
 h6 {
     font-size: 24px;
@@ -163,13 +191,20 @@ h6 {
 
 
 footer {
-    background-color: #152A3F;
+    background-color: #FFBA58;
+    background-image: linear-gradient(-90deg, #FF7473 0%, #FFDD52 100%);
     padding: 10px 0 10px 0;
 }
 
 footer p {
     max-width: 100%;
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+  color: rgba(66, 134, 244, 0.8);
 }
 
 #Social {
@@ -192,7 +227,7 @@ footer p {
 }
 
 a {
-	color: #89A9AD;
+  color: #FF5733;
 }
 
 .contact button:focus {
@@ -248,15 +283,78 @@ a {
     width: 30.33%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
-    .col {
-        margin: 1% 0 1% 0%;
-    }
+/*  GRID OF TWELVE  */
+.span_12_of_12 {
+	width: 100%;
+  margin: 0 0 0 1.6%;}
+
+.span_11_of_12 {
+  	width: 91.53%;
+    margin: 0 0 0 1.6%;
+}
+.span_10_of_12 {
+  	width: 83.06%;
+    margin: 0 0 0 1.6%;
 }
 
-@media only screen and (max-width: 480px) {
+.span_9_of_12 {
+  	width: 74.6%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_8_of_12 {
+  	width: 66.13%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_7_of_12 {
+  	width: 57.66%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_6_of_12 {
+  	width: 49.2%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_5_of_12 {
+  	width: 40.73%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_4_of_12 {
+  	width: 32.26%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_3_of_12 {
+  	width: 23.8%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_2_of_12 {
+  	width: 15.33%;
+    margin: 0 0 0 1.6%;
+}
+
+.span_1_of_12 {
+  	width: 6.866
+    margin: 0 0 0 1.6%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+/*@media only screen and (max-width: 480px) {
+
+}*/
+
+@media only screen and (max-width: 1350px) {
+
+  .col {
+      margin: 1% 0 1% 0%;
+  }
+
     .span_3_of_3 {
         width: 100%;
     }
@@ -267,3 +365,19 @@ a {
         width: 100%;
     }
 }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 570px) {
+    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+	width: 100%;
+	}
+}
+
+
+/*Project Order:
+Zivity
+To-Do or Roam or Vinyl
+Bossgle
+A-maze-ing Game
+Memorial Site
+FizzBuzzinator*/
