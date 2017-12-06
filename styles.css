@@ -63,6 +63,7 @@ h5 {
   font-family: Arial, Helvetica, sans-serif;
   /*font-family: verdana;*/
   font-weight: normal;
+  /*text-shadow: .5px .5px 5px #888;*/
 }
 
 .contact div{
@@ -139,6 +140,7 @@ img {
     /*max-width: 230px;*/
     max-width: 250px;
     /*margin-left: 20px;*/
+    box-shadow: 5px 5px 5px grey;
 }
 
 .Description p {
@@ -211,7 +213,8 @@ footer p {
 }
 
 footer a {
-  color: rgba(66, 134, 244, 0.8);
+  /*color: rgba(66, 134, 244, 0.8);*/
+  color: black;
 }
 
 #Social {
@@ -229,7 +232,7 @@ footer a {
 #foot {
   padding: 34px 0 34px 0;
 	text-align: center;
-  border-top: 1px solid #333;
+  /*border-top: 1px solid #333;*/
 }
 
 a {
@@ -398,7 +401,7 @@ a {
 /*Project Order:
 Bossgle
 Zivity
-To-Do or Roam or Vinyl
+Bay Area Theater Review
 8-Ball React
 A-maze-ing Game
 Memorial Site
