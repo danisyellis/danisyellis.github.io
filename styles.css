@@ -170,6 +170,14 @@ img {
     margin-top: 5px;
 }
 
+#Echo {
+  background-color: rgb(215, 215, 215);
+}
+
+#Echo p {
+  text-align: center;
+}
+
 #Bossggle {
   background-color: #f9f0e6;
 }
